@@ -1,4 +1,4 @@
-<img src="https://github.com/RuggiesPizza/ElCoyote/blob/dev/images/RugDrop.png" width="500">
+<img src="https://github.com/RuggiesPizza/ElCoyote/blob/main/images/ElCoyoteBanner.png" width="750">
 
 A series of contracts and scripts to help any token migrate the Sonic border. 
 Leveraging LayerZero and taking inspiration from migration plans by Franz(Beethoven X).
