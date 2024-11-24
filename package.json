@@ -4,6 +4,7 @@
     "hardhat": "^2.22.15"
   },
   "dependencies": {
+    "@layerzerolabs/oft-evm": "^3.0.0",
     "@openzeppelin/contracts": "^5.1.0"
   }
 }
