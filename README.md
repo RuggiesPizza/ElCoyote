@@ -24,5 +24,5 @@ npx hardhat compile
 
 ## Working with Contracts
 The contracts are seperated by categories, and will each come with their own README for further information.
-- [LayerZero Token](https://github.com/RuggiesPizza/ElCoyote/blob/dev/contracts/OFT/TEST.sol)
-- [Migrate to new Lz Token](https://github.com/RuggiesPizza/ElCoyote/blob/dev/contracts/Migration/Token2TokenMigration.sol)
+- [LayerZero Token](https://github.com/RuggiesPizza/ElCoyote/tree/main/contracts/OFT)
+- [Migrate to new Lz Token](https://github.com/RuggiesPizza/ElCoyote/tree/main/contracts/Migration)
