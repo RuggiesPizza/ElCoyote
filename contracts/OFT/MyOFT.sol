@@ -8,5 +8,7 @@ contract MyOFT is OFT {
     constructor(
         address _lzEndpoint,
         address _delegate
-    ) OFT("TEST Token", "TEST", _lzEndpoint, _delegate) Ownable(_delegate) {}
+    ) OFT("TEST Token", "TEST", _lzEndpoint, _delegate) Ownable(_delegate) {
+        _mint(_delegate, 2222222222 ether);
+    }
 }
