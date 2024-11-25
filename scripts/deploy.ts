@@ -13,16 +13,18 @@ async function main() {
 
   const provider = ethers.provider;
   const [deployer] = await ethers.getSigners();
+  let deployer_address = await deployer.getAddress();
+
   // TODO: FILL THIS OUT
-  const lzEndpoint = '';
-  const delegate = ''
+  const lzEndpoint = '0x1a44076050125825900e736c501f859c50fE728c'; // Fantom
+  const delegate = deployer_address
 
   console.log(
     "Deploying the contracts with the account:",
-    await deployer.getAddress()
+    deployer_address
   );
 
-  console.log("Account balance:", (await provider.getBalance(deployer.getAddress())).toString());
+  console.log("Account balance:", (await provider.getBalance(deployer_address)).toString());
 
   //MyOFT Contract
   MyOFT = await ethers.getContractFactory("MyOFT");
